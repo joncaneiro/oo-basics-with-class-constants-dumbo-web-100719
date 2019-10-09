@@ -9,7 +9,11 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    unless BRANDS.include?(brand) << brand
+    
+    unless BRANDS << brand
+    
+    end
+    
   end
 
   def cobble
