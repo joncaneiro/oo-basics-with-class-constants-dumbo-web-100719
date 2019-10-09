@@ -9,11 +9,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    
-    unless BRANDS << brand
-    
-    end
-    
+     BRANDS << brand.uniq
   end
 
   def cobble
