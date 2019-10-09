@@ -12,7 +12,7 @@ class Shoe
      BRANDS << brand unless BRANDS.include?(brand)
   end
   
-  binding.pry
+  
 
   def cobble
     self.condition = "new"
